@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  border: dotted 2px blue;
+  max-width: 1000px;
+  /* center */
+  margin: 0 auto;
+  padding: 50px;
+}
+.flex-nav {
+  border: dotted 2px red;
+}
+.flex-nav ul {
+  border: solid 4px black;
+  display: flex;
+  justify-content: baseline;
+  font-family: sans-serif;
+}
+/* Extra-space */
+
+li {
+  list-style: none;
+  padding: 5px;
+  text-align: center;
+  margin: auto auto;
+}
+
+li .social {
+  flex: 1;
+  padding: 0;
+}
+li {
+  flex: 3;
+}
+/* Social-icons */
+.icon {
+  width: 40px;
+}
+.icon:hover {
+  cursor: pointer;
+}
